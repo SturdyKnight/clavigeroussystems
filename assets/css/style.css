@@ -1432,6 +1432,10 @@ a {
 .footer-content1 figure {
   margin-bottom: 12px;
 }
+.footer-content1 figure img {
+  width: 200px;
+  height: 60px;
+}
 .footer-content1 {
   padding-left: 0px;
   padding-right: 0px;
@@ -1506,13 +1510,37 @@ a {
   padding-left: 6px;
   margin-bottom: 14px;
 }
+.footer-section .footer-list .icon-list-box1 .contact-us-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section .footer-list .icon-list-box1 .contact-us-ul .list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  /* Add spacing between items */
+}
+
 .footer-section .footer-list .icon-list-box1 .footer-link-auto {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   color: var(--e-global-color-text);
   letter-spacing: 0px;
+  text-decoration: none;
+  margin-left: 10px;
+  /* Space between icon and text */
 }
+
+.footer-section .footer-list .icon-list-box1 .fa-icon {
+  font-size: 20px;
+  /* Adjust icon size */
+  color: var(--e-global-color-text);
+  /* Match text color */
+}
+
 .footer-section .footer-list .icon-list-box1 .footer-location3 {
   color: var(--e-global-color-hover);
   position: absolute;
