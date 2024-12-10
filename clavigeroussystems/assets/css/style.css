@@ -2370,3 +2370,31 @@ a {
   margin-top: -130px;
   margin-bottom: -110px;
 }
+
+.imgfluid1{
+  border-radius: 20px;
+  width: 355px;
+  margin-left: 90px;
+  margin-top: 120px;
+}
+
+.mb0{
+  scale: 60%;
+  margin-left: -75px;
+  margin-top: -100px;
+  margin-bottom: -90px;
+}
+
+.mb1{
+  scale: 60%;
+  margin-left: -75px;
+  margin-top: -100px;
+  margin-bottom: -90px;
+}
+
+.mb2{
+  scale: 60%;
+  margin-left: -75px;
+  margin-top: -100px;
+  margin-bottom: -90px;
+}
