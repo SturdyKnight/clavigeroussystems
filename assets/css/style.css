@@ -2400,6 +2400,9 @@ a {
 }
 
 .figf1{
-  border-radius: 10px;
   margin-left: 25px;
+}
+
+.figf1 img {
+  border-radius: 10px; /* Ensures border-radius applies to the image */
 }
