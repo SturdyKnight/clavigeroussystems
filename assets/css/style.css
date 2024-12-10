@@ -1102,6 +1102,7 @@ a {
   font-weight: 600;
   color: var(--e-global-color-secondary);
   text-align: center;
+  margin-left: 160px;
 }
 .our-teams-section .teams-img-content .teams-text p{
   font-size: 16px;
@@ -1110,6 +1111,7 @@ a {
   color: var(--e-global-color-text);
   text-align: center;
   margin-bottom: 34px;
+  margin-left: 160px;
 }
 .our-teams-section .teams-img-content .hover_box_plus ul {
   position: absolute;
@@ -2428,9 +2430,15 @@ a {
 }
 
 .figf1{
+  margin-top: 150px;
   margin-left: 25px;
 }
 
 .figf1 img {
-  border-radius: 10px; /* Ensures border-radius applies to the image */
+  width: 400px;
+  border-radius: 25px; /* Ensures border-radius applies to the image */
+}
+
+.logo{
+  width: 300px;
 }
